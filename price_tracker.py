@@ -75,9 +75,9 @@ class tracker():
         server.ehlo()
         server.starttls()
         server.ehlo()
-        server.login('amarmuhammed6@gmail.com','hoaxhoax123')
+        server.login('abc@gmail.com','password')
         subject='price drop alert!'
         msg=f"Subject: {subject}\n\n{link}"
-        server.sendmail('amarmuhammed6@gmail.com','amar333me@gmail.com',msg)
+        server.sendmail('abc@gmail.com','efg@gmail.com',msg)
         server.quit()
 ###########
