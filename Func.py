@@ -81,6 +81,3 @@ class tracker():
         server.sendmail('amarmuhammed6@gmail.com','amar333me@gmail.com',msg)
         server.quit()
 ###########
-
-t=tracker()
-t.update()
